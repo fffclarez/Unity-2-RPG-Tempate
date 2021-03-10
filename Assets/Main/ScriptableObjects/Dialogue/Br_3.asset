@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueID: Maybe
   DialogueLines:
-  - Maybe
+  - You clicked Maybe
   ResponseOption: []

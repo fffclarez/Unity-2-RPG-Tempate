@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueID: Yes
   DialogueLines:
-  - Yes
+  - You clicked Yes
   ResponseOption: []

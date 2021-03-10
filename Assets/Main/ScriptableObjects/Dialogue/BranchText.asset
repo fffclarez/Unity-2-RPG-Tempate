@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1efd20f341c4e7995c8d8b177b3c13, type: 3}
   m_Name: BranchText
   m_EditorClassIdentifier: 
-  dialogueID: 
-  DialogueLines: []
-  ResponseOption: []
+  dialogueID: Start
+  DialogueLines:
+  - 'This is a test '
+  - for dialogue
+  - Do you like?
+  ResponseOption:
+  - text: Yes
+    nextBranch: {fileID: 11400000, guid: a44f100be404a404783eaf0cb2778944, type: 2}
+  - text: No
+    nextBranch: {fileID: 11400000, guid: 308fee77f102846ffbb6c35c8eacc169, type: 2}
+  - text: Maybe
+    nextBranch: {fileID: 11400000, guid: d1a8e233748d748708e5f8382e601f48, type: 2}
